@@ -114,3 +114,6 @@ plot_red <- ggplot(red, aes(x = ideo_pos_red, y = fct_rev(ideo_pre_red), label =
         plot.caption = element_text(size = 8, family = "Josefin Sans", color = "grey40"),
         panel.background = element_blank(),
         legend.position = "none")
+plot_red
+
+ggsave("escala_ideo_red.png")
